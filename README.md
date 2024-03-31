@@ -1,7 +1,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Build Status](https://github.com/medspacy/medspacy/workflows/medspacy/badge.svg)
 
-# medspacy
+
+# This fork of MedSpaCy, particularly this branch, has modified requirements for a very narrow use-case / integration with newer versions of SpaCy & SciSpacy.
+## QuickUMLS, and PyRush have been disabled in this branch, and SpaCy is forced at >=3.7 The medSpaCy code has not been modified to reflect these changes.
+
+
+
+
+# medspacy 
 Library for clinical NLP with spaCy. 
 
 ![alt text](./images/medspacy_logo.png "medSpaCy logo")
