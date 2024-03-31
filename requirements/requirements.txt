@@ -1,5 +1,8 @@
-spacy>=3.7
-PyRuSH>=1.0.8
+# This has been updated substantially from the source with the intent of integrating into a modern scispacy pipeline, including breaking changes to unused components. Will cause breaking changes to medspacy's Sentencizer & QuickUMLS components which are not intended to be used for this fork's use-case
+# May cause breaking changes due to SpaCy version upgrade. 
+
+spacy>=3.7 # original >=3.4 < 3.6 - Nonstarter with SciSpaCy & LLM enabled SpaCy.
+# PyRuSH>=1.0.8 #Security review needed: indirect vulnerabilities https://snyk.io/advisor/python/pyrush  Not using MedSpaCy's Sentencizer so disabling for now. 
 pysbd==0.3.4
 jsonschema
-medspacy_quickumls==3.0
+# medspacy_quickumls==3.0 disabling for now, leaning on SciSpaCy for UMLS entity linking for purposes of this fork |https://snyk.io/advisor/python/medspacy-quickumls
