@@ -5,4 +5,4 @@ spacy>=3.7 # original >=3.4 < 3.6 - Nonstarter with SciSpaCy & LLM enabled SpaCy
 # PyRuSH>=1.0.8 #forking this and updating to spacy 3.7
 pysbd==0.3.4
 jsonschema
-medspacy_quickumls==3.0
+# medspacy_quickumls==3.0
